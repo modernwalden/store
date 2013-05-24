@@ -1,0 +1,23 @@
+/*
+Theme Name: The Retailer Child
+Author: Modern Walden
+Author URI: http://modernwalden.com/
+Version: 0.0.0
+Template: theretailer
+*/
+
+@import url("../theretailer/style.css");
+
+.gbtr_tools_info {
+  color: #CCCCCC !important;
+}
+
+.entry-content p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 719px) {
+  .doubleSlider-1 .slider .item img {
+    width:100% !important;
+  }
+}
