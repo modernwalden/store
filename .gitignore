@@ -1,4 +1,6 @@
 .DS_Store
+.htaccess
+.redcar/
 404.shtml
 favicon.ico
 index.php
