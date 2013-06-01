@@ -12,12 +12,78 @@ Template: theretailer
   color: #CCCCCC !important;
 }
 
+h1.entry-title.gbtr_post_title_listing,
+h1.page-title.gbtr_post_title_listing,
+h1.entry-title.gbtr_post_title_listing a,
+h1.page-title.gbtr_post_title_listing a
+{
+	text-transform:none !important;
+	padding: 6px 0 5px;
+	margin-top: 0px;
+	line-height:1.2em;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article:first-child h1.entry-title.gbtr_post_title_listing,
+article:first-child h1.page-title.gbtr_post_title_listing:first-child,
+article:first-child h1.entry-title.gbtr_post_title_listing a,
+article:first-child h1.page-title.gbtr_post_title_listing:first-child a
+{
+	padding: 6px 0 5px !important;
+	margin-top:0px !important;
+}
+
+.gbtr_post_title_listing a {
+  font-size: 18px !important;
+  text-align: left;
+}
+
+.page-blog .entry-thumbnail {
+	margin: 15px 0 15px 0 !important;
+  float: left;
+}
+
+.entry-thumbnail {
+	margin:0 0 20px 0;
+}
+
+.entry-thumbnail img {
+	vertical-align:top;
+}
+
+.entry-content {
+  margin: 0 0 0 0;
+  float: left;
+}
+
 .entry-content p {
-  font-size: 14px;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-bottom: 13px;
+}
+
+.entry-meta {
+  clear:both;
+}
+
+footer.entry-meta .cat-links {
+	float:right;
+}
+
+footer.entry-meta .cat-links a {
+	padding:0 0 0 5px !important;
+  text-align: right;
+}
+
+.more-link {
+  margin: 0 0 0 0;
 }
 
 @media only screen and (max-width: 719px) {
   .doubleSlider-1 .slider .item img {
-    width:100% !important;
+    width: 100% !important;
   }
 }
