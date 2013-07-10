@@ -12,6 +12,10 @@ Template: theretailer
   color: #CCCCCC !important;
 }
 
+.entry-thumbnail {
+  width: 100%;
+}
+
 h1.entry-title.gbtr_post_title_listing,
 h1.page-title.gbtr_post_title_listing,
 h1.entry-title.gbtr_post_title_listing a,
